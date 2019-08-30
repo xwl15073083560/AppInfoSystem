@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AppInfoSystem:war exploded">
+    <output-path>$PROJECT_DIR$/web</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="AppInfoSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AppInfoSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="aopalliance-1.0" />
+          <element id="file-copy" path="E:/编程3软件&amp;workspace/spring-jar/commons-io-2.4.jar" />
+          <element id="file-copy" path="E:/编程3软件&amp;workspace/spring-jar/commons-fileupload-1.2.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

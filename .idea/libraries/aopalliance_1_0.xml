@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/aopalliance-1.0.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/aspectjweaver-1.6.9.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-dbcp-1.4.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-lang-2.6.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-logging-1.2.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-pool-1.6.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/fastjson-1.2.13.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/log4j-1.2.17.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/mybatis-3.2.2.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/mybatis-spring-1.2.0.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/mysql-connector-java-5.1.0-bin.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-aop-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-beans-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-context-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-core-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-expression-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-jdbc-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-tx-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-web-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring-webmvc-3.2.13.RELEASE.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring_validation/hibernate-validator-4.3.2.Final.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring_validation/jboss-logging-3.1.0.CR2.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/spring_validation/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-fileupload-1.2.2.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/commons-io-2.4.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/jstl.jar!/" />
+      <root url="jar://E:/编程3软件&amp;workspace/standard.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/编程3软件&amp;workspace/spring-jar/fastjson-1.2.13-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-web-3.2.13.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
