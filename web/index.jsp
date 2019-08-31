@@ -22,17 +22,22 @@
 
     <!-- Custom Theme Style -->
     <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
+
+    <link href="${pageContext.request.contextPath }/statics/layui/css/layui.css" rel="stylesheet">
+    <script src="statics/layui/layui.js"></script>
 </head>
 
 <body class="login">
 <div class="login_wrapper">
     <h1>APP信息管理平台</h1>
-    <div>
-        <a href="manager/login" class="btn btn-link">后台管理系统 入口</a>
+    <br/>
+    <div class="layui-input-inline">
+        <a href="manager/login" class="layui-btn layui-btn-radius layui-btn-warm layui-input-inline">后台管理系统 入口</a>
     </div>
-    <div>
-        <a href="dev/login" class="btn btn-link">开发者平台 入口</a>
+    <div class="layui-input-inline">
+        <a href="dev/login" class="layui-btn layui-btn-radius layui-btn-warm">开发者平台 入口</a>
     </div>
+
 </div>
 </body>
 </html>
