@@ -10,21 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>后台管理系统</title>
+    <link href="${pageContext.request.contextPath }/statics/layui/css/layui.css" rel="stylesheet">
+    <script src="statics/layui/layui.js"></script>
 
-    <!-- Bootstrap -->
-    <link href="${pageContext.request.contextPath }/statics/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="${pageContext.request.contextPath }/statics/css/font-awesome.min.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="${pageContext.request.contextPath }/statics/css/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="https://colorlib.com/polygon/gentelella/css/animate.min.css" rel="stylesheet">
-
-    <!-- Custom Theme Style -->
-    <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
+    <style type="text/css">
+        .body{background: #e2e2e2;height: 100%;width: 100%;}
+        .div{margin: 10%;}
+    </style>
 </head>
 
-<body class="login">
+<body class="body">
 <div>
     <a class="hiddenanchor" id="signup"></a>
     <a class="hiddenanchor" id="signin"></a>
@@ -57,6 +52,12 @@
             </section>
         </div>
     </div>
+</div>
+
+<div class="div" align="center">
+    <form class="layui-form" action="" method="post">
+
+    </form>
 </div>
 </body>
 </html>

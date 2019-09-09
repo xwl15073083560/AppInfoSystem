@@ -11,20 +11,17 @@
 
     <title>APP开发者平台</title>
 
-    <!-- Bootstrap -->
-    <link href="${pageContext.request.contextPath }/statics/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="${pageContext.request.contextPath }/statics/css/font-awesome.min.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="${pageContext.request.contextPath }/statics/css/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="https://colorlib.com/polygon/gentelella/css/animate.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/statics/layui/css/layui.css" rel="stylesheet">
+    <script src="statics/layui/layui.js"></script>
 
-    <!-- Custom Theme Style -->
-    <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
+
+    <style type="text/css">
+        .body{background: #e2e2e2;height: 100%;width: 100%;}
+        .div{margin: 10%;}
+    </style>
 </head>
 
-<body class="login">
+<body class="body">
 <div>
     <a class="hiddenanchor" id="signup"></a>
     <a class="hiddenanchor" id="signin"></a>
@@ -57,6 +54,33 @@
             </section>
         </div>
     </div>
+</div>
+
+<div class="div" align="center">
+    <form class="layui-form" action="" method="post">
+        <h1 style="font-weight: 900;">APP开发者平台</h1>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="text" name="title" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-inline">
+                <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <span>${error }</span>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn" lay-submit lay-filter="formDemo">登录</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+        <hr class="layui-bg-black"/>
+        <div>
+            <p>©2016 All Rights Reserved. </p>
+        </div>
+    </form>
 </div>
 </body>
 </html>

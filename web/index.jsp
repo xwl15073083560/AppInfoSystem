@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>后台管理系统</title>
     <style type="text/css">
-        .body{background: #e2e2e2;height: 100%;width: 100%;}
-        .div{margin: 10%;}
-    </style>
+    .body{background: #e2e2e2;height: 100%;width: 100%;}
+    .div{margin: 10%;}
+</style>
     <!-- Custom Theme Style -->
     <link href="${pageContext.request.contextPath }/statics/css/custom.min.css" rel="stylesheet">
 
