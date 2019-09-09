@@ -32,6 +32,8 @@
     <!-- add localcss 2016-8-18 -->
     <link href='${pageContext.request.contextPath }/statics/localcss/appinfoadd.css' rel='stylesheet'>
     <link href='${pageContext.request.contextPath }/statics/localcss/appinfolist.css' rel='stylesheet'>
+    <link href="${pageContext.request.contextPath }/statics/layui/css/layui.css" rel="stylesheet">
+    <script src="${pageContext.request.contextPath }/statics/layui/layui.js"></script>
 </head>
 <body class="nav-md footer_fixed">
 <div class="container body">
