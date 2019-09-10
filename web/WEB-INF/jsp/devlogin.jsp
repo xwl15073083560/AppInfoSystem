@@ -12,7 +12,7 @@
     <title>APP开发者平台</title>
 
     <link href="${pageContext.request.contextPath }/statics/layui/css/layui.css" rel="stylesheet">
-    <script src="statics/layui/layui.js"></script>
+    <script src="${pageContext.request.contextPath }/statics/layui/layui.js"></script>
 
 
     <style type="text/css">
@@ -22,55 +22,23 @@
 </head>
 
 <body class="body">
-<div>
-    <a class="hiddenanchor" id="signup"></a>
-    <a class="hiddenanchor" id="signin"></a>
 
-    <div class="login_wrapper">
-        <div class="animate form login_form">
-            <section class="login_content">
-                <form action="dologin" method="post">
-                    <h1>APP开发者平台</h1>
-                    <div>
-                        <input type="text" class="form-control" name="devCode" placeholder="请输入用户名" required="" />
-                    </div>
-                    <div>
-                        <input type="password" class="form-control" name="devPassword" placeholder="请输入密码" required="" />
-                    </div>
-                    <span>${error }</span>
-                    <div>
-                        <button type="submit" class="btn btn-success">登     录</button>
-                        <button type="reset" class="btn btn-default">重　填</button>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="separator">
-                        <div>
-                            <p>©2016 All Rights Reserved. </p>
-                        </div>
-                    </div>
-                </form>
-            </section>
-        </div>
-    </div>
-</div>
 
 <div class="div" align="center">
-    <form class="layui-form" action="" method="post">
+    <form class="layui-form" action="dologin" method="post">
         <h1 style="font-weight: 900;">APP开发者平台</h1>
-        <div class="layui-form-item">
-            <div class="layui-input-block">
-                <input type="text" name="title" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
+        <div style="margin-left: 40%;" class="layui-form-item">
             <div class="layui-input-inline">
-                <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                <input type="text" name="devCode" required   lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
             </div>
         </div>
-        <span>${error }</span>
-        <div class="layui-form-item">
+        <div style="margin-left: 40%;" class="layui-form-item">
+            <div class="layui-input-inline">
+                <input type="password" name="devPassword" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <span style="color:red;">${error }</span>
+        <div style="margin-left:-180px;" class="layui-form-item">
             <div class="layui-input-block">
                 <button class="layui-btn" lay-submit lay-filter="formDemo">登录</button>
                 <button type="reset" class="layui-btn layui-btn-primary">重置</button>
@@ -82,5 +50,20 @@
         </div>
     </form>
 </div>
+
+
+<script>
+    //Demo
+    layui.use('form', function(){
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(formDemo)', function(data){
+            layer.msg(JSON.stringify(data.field));
+            return true;
+        });
+    });
+</script>
+
 </body>
 </html>
